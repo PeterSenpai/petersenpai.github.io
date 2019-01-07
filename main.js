@@ -1,4 +1,4 @@
-const offset = 90;
+const offset = 85;
 
 $('.navbar li a').click(function(event) {
     event.preventDefault();
