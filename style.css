@@ -202,6 +202,9 @@ hr.light-100{
     margin-bottom: 1rem;
 }
 
+.filler{
+    height: 85px !important;
+}
 
 
 
@@ -210,7 +213,10 @@ hr.light-100{
 
 
 /*---Media Queries --*/
+
+
 @media (max-width: 992px) {
+    
     .social a{
         font-size: 4em;
         padding: 2rem;
@@ -345,6 +351,7 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
+
 
 
 
