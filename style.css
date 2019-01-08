@@ -222,6 +222,11 @@ hr.light-100{
         margin-top: 20% !important;
     }
 
+    .padding{
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+
 }
 @media (max-width: 1470px) {
     .selfie{
@@ -362,6 +367,18 @@ hr.light-100{
         margin-left: 30% !important;
         margin-top: 15% !important;
         margin-bottom: 10% !important;
+    }
+
+    .padding {
+        
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .wca{
+        margin-bottom: 5px !important;
     }
 }
 
