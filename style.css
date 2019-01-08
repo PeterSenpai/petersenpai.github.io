@@ -97,6 +97,8 @@ a:hover, a:focus {
 
 .padding {
     padding-bottom: 2rem !important;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
 }
 
 .jumbotron {
@@ -215,6 +217,40 @@ hr.light-100{
 /*---Media Queries --*/
 
 
+@media (max-width: 1583px) {
+    .selfie{
+        margin-top: 20% !important;
+    }
+
+}
+@media (max-width: 1470px) {
+    .selfie{
+        margin-top: 35% !important;
+    }
+
+}
+
+@media (max-width: 1220px) {
+    .selfie{
+        margin-top: 50% !important;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .selfie{
+        margin-top: 20% !important;
+    }
+
+}
+
+@media (max-width: 1075px) {
+    .selfie{
+        margin-top: 45% !important;
+    }
+
+}
+
 @media (max-width: 992px) {
     
     .social a{
@@ -224,15 +260,18 @@ hr.light-100{
     }
 
     .selfie{
-        margin-top: 20% !important;
+        margin-top: 55% !important;
+
     }
 }
+
 @media (max-width: 880px) {
     .selfie{
-        margin-top: 45% !important;
+        margin-top: 100% !important;
     }
 
 }
+
 
 
 @media (max-width: 768px) {
@@ -269,7 +308,7 @@ hr.light-100{
     .selfie{
         width: 40% !important;
         margin-left: 25% !important;
-        margin-top: 10% !important;
+        margin-top: 20% !important;
         margin-bottom: 10% !important;
     }
 
@@ -306,6 +345,13 @@ hr.light-100{
     .social a{
         font-size: 2em;
         padding: 0.7rem;
+    }
+
+    .selfie{
+        width: 40% !important;
+        margin-left: 25% !important;
+        margin-top: 120% !important;
+        margin-bottom: 10% !important;
     }
 }
 
