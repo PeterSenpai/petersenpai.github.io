@@ -7,6 +7,19 @@ html, body{
     color: #222 !important;
 }
 
+.title{
+    margin-bottom: 4rem !important;
+}
+
+.typewrite{
+    color: white;
+
+}
+
+.typewrite:hover{
+    color: white;
+}
+
 .navbar{
     padding: 0rem !important;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -295,8 +308,12 @@ hr.light-100{
         top: 45%;
     }
     
+    .typewrite{
+        font-size: 400% !important;
+    }
+
     .carousel-caption h1 {
-        font-size: 350%;
+        font-size: 50%;
        
     }
     
@@ -336,7 +353,7 @@ hr.light-100{
     }
     
     .carousel-caption h1 {
-        font-size: 230%;
+        font-size: 50%;
        
     }
     
