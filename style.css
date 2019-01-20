@@ -232,6 +232,12 @@ hr.light-100{
 
 
 @media (max-width: 1583px) {
+    .typewrite{
+        font-size: 100% !important;
+    }
+
+
+
     .selfie{
         margin-top: 20% !important;
     }
@@ -247,7 +253,12 @@ hr.light-100{
         margin-top: 35% !important;
     }
 
+    .typewrite{
+        font-size: 80% !important;
+    }
+
 }
+
 
 @media (max-width: 1220px) {
     .selfie{
@@ -266,6 +277,11 @@ hr.light-100{
         padding-right: 1rem !important;
     }
 
+    .typewrite{
+        font-size: 70% !important;
+    }
+
+
 }
 
 @media (max-width: 1075px) {
@@ -276,6 +292,9 @@ hr.light-100{
 }
 
 @media (max-width: 992px) {
+    .typewrite{
+        font-size: 60% !important;
+    }
     
     .social a{
         font-size: 4em;
@@ -290,6 +309,10 @@ hr.light-100{
 }
 
 @media (max-width: 880px) {
+
+    .typewrite{
+        font-size: 50% !important;
+    }
     .selfie{
         margin-top: 100% !important;
     }
@@ -348,12 +371,16 @@ hr.light-100{
 
 }
 @media (max-width: 576px) {
+    .typewrite{
+        font-size: 200% !important;
+    }
+
     .carousel-caption{
-        top: 35%;
+        top: 45%;
     }
     
     .carousel-caption h1 {
-        font-size: 50%;
+        font-size: 100%;
        
     }
     
