@@ -1,0 +1,37 @@
+{
+    "siteMetadata": {
+        "language": "en",
+        "siteUrl": "https://petersenpai.github.io/",
+        "title": "Peter Tao",
+        "titleTemplate": "%s · Portfolio Minimal",
+        "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+        "author": "Peter Tao",
+        "avatar": "../content/images/gatsby.png",
+        "bio": "Peter Tao's personal website.",
+        "social": {
+            "github": "https://github.com/PeterSenpai",
+            "linkedin": "https://www.linkedin.com/in/dev-petertao/",
+            "mail": "peter.tao@mail.utoronto.ca"
+        }
+    },
+    "siteConfiguration": {
+        "logo": { "text": "@PeterTao" },
+        "navigation": {
+            "header": [
+                { "label": "About", "url": "/#about" },
+                { "label": "Blog", "url": "/blog" }
+            ],
+            "ctaButton": {
+                "openNewTab": true,
+                "label": "GitHub",
+                "url": "https://github.com/PeterSenpai"
+            },
+            "footer": [{ "label": "Privacy", "url": "/privacy" }]
+        },
+        "featureToggles": {
+            "useDarkModeAsDefault": false,
+            "useDarkModeBasedOnUsersPreference": false,
+            "useCookieBar": false
+        }
+    }
+}
