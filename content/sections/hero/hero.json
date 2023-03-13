@@ -1,7 +1,7 @@
 {
     "intro": "Hello, Friends",
     "heroPhoto": {
-        "src": "../../images/jss.png",
+        "src": "../../images/avatar.png",
         "alt": "icon"
     },
     "image": {
