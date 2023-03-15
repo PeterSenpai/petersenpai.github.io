@@ -1,3 +1,3 @@
 # README
 
-My personal website.
+I am sorry about using JavaScript.
