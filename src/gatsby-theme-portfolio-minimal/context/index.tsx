@@ -34,10 +34,7 @@ export function GlobalStateProvider(
     props: GlobalStateProviderProps
 ): React.ReactElement {
     const [globalState, dispatch] = React.useReducer(globalStateReducer, {
-        theme:
-            localStorage.getItem("theme") === Theme.Dark
-                ? Theme.Dark
-                : Theme.Light,
+        theme: initTheme(),
         // If useSplashScreenAnimation=false, we skip the animation by setting the initial value to true
         splashScreenDone: props.useSplashScreenAnimation ? false : true,
     });
@@ -70,10 +67,6 @@ function globalStateReducer(state: GlobalState, action: Action) {
             return { ...state, splashScreenDone: action.value };
         }
         case ActionType.ToggleTheme: {
-            console.log(
-                `toggleTheme action is dispatching with current theme as ${state.theme}`
-            );
-
             if (state.theme === Theme.Dark) {
                 localStorage.setItem("theme", Theme.Light);
                 return { ...state, theme: Theme.Light };
@@ -88,11 +81,17 @@ function globalStateReducer(state: GlobalState, action: Action) {
     }
 }
 
-function initializeTheme(defaultTheme: Theme, useDarkMode: boolean): Theme {
-    console.log(
-        `initializeTheme has been called with defaultTheme as ${defaultTheme}, useDarkMode as ${useDarkMode}`
-    );
+function initTheme(): Theme {
+    if (typeof window === "undefined") {
+        return Theme.Light;
+    }
 
+    return localStorage.getItem("theme") === Theme.Dark
+        ? Theme.Dark
+        : Theme.Light;
+}
+
+function initializeTheme(defaultTheme: Theme, useDarkMode: boolean): Theme {
     const darkModeEnabled = useMediaQuery(
         "(prefers-color-scheme: dark)",
         (isMatch) => {
