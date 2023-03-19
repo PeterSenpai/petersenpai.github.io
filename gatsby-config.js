@@ -18,10 +18,19 @@ module.exports = {
                     path: "/blog", // Defines the slug for the blog listing page
                     usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
                 },
-                googleAnalytics: {
-                    trackingId: "G-144YH36SVY",
-                    anonymize: false,
-                    environments: ["production"],
+                // googleAnalytics: {
+                //     trackingId: "G-144YH36SVY",
+                //     anonymize: false,
+                //     environments: ["production"],
+                // },
+            },
+        },
+        {
+            resolve: `gatsby-plugin-google-gtag`,
+            options: {
+                trackingIds: ["G-35EELXQV8V"],
+                pluginConfig: {
+                    head: true,
                 },
             },
         },
