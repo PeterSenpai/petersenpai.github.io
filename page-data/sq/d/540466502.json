@@ -1,1 +1,1 @@
-{"data":{"allArticle":{"articles":[{"categories":["Setup","Test"],"date":"2023-03-12 00:00:00","slug":"/my-first-article/","title":"This is an exemplary article for the blog.","readingTime":{"text":"3 min read"}}]}}}
+{"data":{"allArticle":{"articles":[{"categories":["Rust","Learning"],"date":"2023-03-28 00:00:00","slug":"/learn-some-rust/","title":"Learn some Rust","readingTime":{"text":"2 min read"}}]}}}
