@@ -24,7 +24,7 @@
 .Article {
     width: 100%;
     height: 100%;
-    max-width: 740px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: var(--page-padding);
 }
@@ -34,6 +34,12 @@
 .Article .Body,
 .Article .Footer {
     margin-bottom: 3rem;
+}
+
+.Article .Banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Article .Category {
@@ -55,7 +61,7 @@
 }
 
 .Article .ReadingTime::before {
-    content: '–';
+    content: "–";
     margin-right: 0.5rem;
 }
 

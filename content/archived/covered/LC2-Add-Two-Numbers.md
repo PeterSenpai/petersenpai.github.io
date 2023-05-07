@@ -21,8 +21,8 @@ https://leetcode.com/problems/add-two-numbers/
 
 Nothing special
 
-Set 2 pointers iteration the same position on 2 different lists
-and only stop when reach the end of the longer list.
+Set up 2 pointers that iterate at the same speed on 2 different lists
+and only stop when we reach the end of the longer list.
 
 some small mistakes can be made
 1/ forgot to update carry for all cases

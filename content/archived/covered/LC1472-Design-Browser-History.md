@@ -19,7 +19,7 @@ keywords:
 
 https://leetcode.com/problems/design-browser-history/
 
-Good for linked list practice, nothing really special.
+Good for linked list practice, after understanding the problem, nothing really special.
 
 ```python
 class ListNode:

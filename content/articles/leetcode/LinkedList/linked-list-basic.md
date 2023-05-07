@@ -3,13 +3,11 @@ title: "Linked List Basic"
 description: "Linked List Leetcode"
 date: "2023-05-04"
 banner:
-    src: "../../images/leetcode.png"
+    src: "../../../images/leetcode.png"
     alt: "First Markdown Post"
     caption: 'Linked List <u><a href="https://leetcode.com/tag/linked-list/"> LeetCode</a></u>'
 categories:
     - "LinkedList"
-    - "General Tricks"
-
 keywords:
     - "LinkedList"
     - "Leetcode"
