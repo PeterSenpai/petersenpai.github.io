@@ -326,6 +326,10 @@ To move to m position, need to move m - 1 steps (m - 1 times of `.next` from hea
 
 4/ Two break points now have 4 nodes 1/conn 2/tail 3/prev 4/curr, anything between (inclusive) tail and prev is reverse and now
 
+### Mistakes
+
+-   forgot `conn` can be None (this case, `prev` should be returned)
+
 ```python
 class Solution:
     def reverseBetween(self, head, m, n):
@@ -393,6 +397,12 @@ class Solution:
 7. left.next = new_head, then left = new_tail, then new_tail.next = right
 8. keep moving right pointer by k step
 9. final step, check the counter again
+
+### Mistakes
+
+-   Forgot to make `dummy` node.
+-   `reverse_list_except_last` should take `curr.next`/`left.next`
+-   `count` and `right` pointer need to be update no matter what
 
 ```python
 def reverseKGroup( head, k):
